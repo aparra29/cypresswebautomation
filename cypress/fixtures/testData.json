@@ -1,0 +1,19 @@
+{
+  "products": {
+    "laptops": [
+      "MacBook air", 
+      "MacBook Pro", 
+      "Dell i7 8gb"
+    ],
+    "phones": [
+      "Samsung galaxy s6", 
+      "Nokia lumia 1520", 
+      "Nexus 6"
+    ],
+    "monitors": [
+      "Apple monitor 24", 
+      "ASUS Full HD", 
+      "DELL 24 LED"
+    ]
+  }
+}
