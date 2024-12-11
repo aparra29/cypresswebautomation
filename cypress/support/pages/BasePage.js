@@ -1,5 +1,4 @@
 export default class BasePage {
-    // Common methods for all pages
     visit() {
       cy.visit('/');
     }

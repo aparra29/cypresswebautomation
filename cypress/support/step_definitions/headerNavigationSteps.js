@@ -2,7 +2,6 @@ import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
 import { homePage } from '../pages/HomePage';
 
 Given('I am on a different page', () => {
-  // Navigate to a random page (e.g., a specific product)
   homePage.visit();
   cy.get('.card-title').first().click();
 });

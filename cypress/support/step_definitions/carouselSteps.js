@@ -14,8 +14,7 @@ When('I click the previous carousel button', () => {
 });
 
 When('I wait for carousel auto-slide', () => {
-  // Typically, you'd use a custom wait strategy here
-  cy.wait(5000); // Wait for potential auto-slide
+  cy.wait(5000); 
 });
 
 When('I inspect the carousel slides', () => {
@@ -29,12 +28,11 @@ Then('the carousel should advance to the next slide', () => {
 });
 
 Then('the carousel should change slides automatically', () => {
-  // Verify slide changes (might require more complex implementation)
   homePage.getCarouselSlides()
     .filter('.active')
     .invoke('index')
     .then(initialIndex => {
-      cy.wait(5000); // Wait for potential auto-slide
+      cy.wait(5000);
       homePage.getCarouselSlides()
         .filter('.active')
         .invoke('index')
