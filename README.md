@@ -13,7 +13,7 @@ This project is designed to automate web application testing using Cypress. Test
 ### 1. Clone the repository
 ```
 git clone https://github.com/aparra29/cypresswebautomation.git
-cd your-repo-name
+cd cypresswebautomation
 ```
 ### 2. Install the necessary dependencies 
 On a terminal, run the following command:
